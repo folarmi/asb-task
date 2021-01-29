@@ -1,8 +1,17 @@
 import union from "../assets/Union.png";
 import icon from "../assets/icons-menu.png";
 import "../css/Table.css";
+import arrowhigh from "../assets/arrowhigh.png";
+import arrowright from "../assets/arrowright.png";
+import arrowup from "../assets/arrowup.png";
 
 function Table(props) {
+  const iconObj = {
+    high: arrowhigh,
+    mid: arrowright,
+    low: arrowup,
+  };
+
   return (
     <div className="table">
       <main className="table-flex">
@@ -25,9 +34,12 @@ function Table(props) {
             <small>{props.entryState}</small>
           </ul>
         </div>
-        <p className="risk" style={{ color: `${props.riskColor}` }}>
-          {props.risk} risk
-        </p>
+        <div className="risks">
+          <img src={iconObj[props.risklevel]} alt="risk" />
+          <p className="risk" style={{ color: `${props.riskColor}` }}>
+            {props.risk} risk
+          </p>
+        </div>
         <img src={icon} alt="icon" />
       </main>
     </div>

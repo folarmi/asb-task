@@ -43,6 +43,7 @@ function Home() {
             risk="Low"
             myColor="#8c70ff"
             riskColor="#3ab65c"
+            risklevel="low"
             // bg="#8c70ff"
           />
           <Table
@@ -55,6 +56,7 @@ function Home() {
             risk="Mid"
             myColor="#f4b400"
             riskColor="#3c3ab6"
+            risklevel="mid"
             // bg="#8c70ff"
           />
           <Table
@@ -67,6 +69,7 @@ function Home() {
             risk="Mid"
             myColor="#8c70ff"
             riskColor="#3c3ab6"
+            risklevel="mid"
             // bg="#8c70ff"
           />
           <Table
@@ -79,6 +82,7 @@ function Home() {
             risk="High"
             myColor="#f4b400"
             riskColor="#b63a3a"
+            risklevel="high"
             // bg="#8c70ff"
           />
           <Table
@@ -91,6 +95,7 @@ function Home() {
             risk="Low"
             myColor="#8c70ff"
             riskColor="#3ab65c"
+            risklevel="low"
             // bg="#8c70ff"
           />
           <Table
@@ -103,6 +108,7 @@ function Home() {
             risk="High"
             myColor="#f4b400"
             riskColor="#b63a3a"
+            risklevel="high"
             // bg="#8c70ff"
           />
           <Table
@@ -115,6 +121,7 @@ function Home() {
             risk="Mid"
             myColor="#f4b400"
             riskColor="#3c3ab6"
+            risklevel="mid"
             // bg="#8c70ff"
           />
           <Table
@@ -127,6 +134,7 @@ function Home() {
             risk="Low"
             myColor="#8c70ff"
             riskColor="#3ab65c"
+            risklevel="low"
             // bg="#8c70ff"
           />
         </div>
