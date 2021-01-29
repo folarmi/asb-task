@@ -9,7 +9,7 @@
 
 .table-flex {
   display: flex;
-  justify-content: center;
+  margin-left: -3.5rem;
 }
 
 .table-flex * {
@@ -64,4 +64,9 @@
 
 .risks {
   display: flex;
+}
+
+.risks img {
+  object-fit: contain;
+  margin-right: 0;
 }

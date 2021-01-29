@@ -44,7 +44,6 @@ function Home() {
             myColor="#8c70ff"
             riskColor="#3ab65c"
             risklevel="low"
-            // bg="#8c70ff"
           />
           <Table
             className="border"
