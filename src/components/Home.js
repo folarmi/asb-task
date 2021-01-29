@@ -8,7 +8,7 @@ import path from "../assets/Path.png";
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <Header />
 
       <div className="sub-header">
