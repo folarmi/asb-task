@@ -1,7 +1,31 @@
 .timeline {
   position: relative;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 1rem;
+}
+
+.timelines {
+  margin-top: 1rem;
+}
+
+.title {
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.content p {
+  font-size: 12px;
+  color: #747474;
+  font-weight: bold;
+  width: 234px;
+}
+
+.content small {
+  font-size: 12px;
+  font-weight: bold;
+  color: #a1aace;
+  width: 101px;
 }
 
 .timeline-flex {
@@ -10,6 +34,7 @@
 
 .timeline-flex img {
   object-fit: contain;
+  margin-right: 1rem;
 }
 
 .timeline::after {
