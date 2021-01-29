@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* font-family: "GoogleSans, serif"; */
+  /* padding: 1rem; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*Sub Header styles */
+.sub-header {
+  display: flex;
+  margin-left: 1.1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sub-header img {
+  object-fit: contain;
+  margin-right: 0.6rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sub-header p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #778699;
+  padding-right: 0.1rem;
+}
+/* cards section */
+.cards {
+  display: flex;
+}
+
+/* Table styles */
+.tables {
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.home-flex {
+  display: flex;
+}
+
+/* Table Header styles */
+.table-header {
+  margin-left: -5.6rem;
+  display: flex;
+  /* justify-content: space-between; */
+  background-color: #f3f6f9;
+  text-transform: uppercase;
+}
+
+.table-header * {
+  margin-right: 8rem;
+}
+
+.table-header p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #899198;
+}
+
+.timeline--flex {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .border {
+  border-bottom: 1px solid yellow;
+} */
