@@ -27,3 +27,13 @@ a {
   object-fit: contain;
   padding-right: 0.4rem;
 }
+
+.button-link {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  color: #5771ee;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+}

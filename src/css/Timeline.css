@@ -16,7 +16,7 @@
   content: "";
   position: absolute;
   width: 2px;
-  background-color: pink;
+  border-right: 1px dashed #c4c4c4;
   top: 0;
   bottom: 0;
   left: 50%;

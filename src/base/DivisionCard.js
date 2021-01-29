@@ -31,7 +31,7 @@ function DivisionCard() {
 
       <div className="division-flex">
         <img src={note} alt="note" />
-        <a href="#"> 2 Journal entries</a>
+        <button className="button-link"> 2 Journal entries</button>
       </div>
 
       <div className="division-flex">
